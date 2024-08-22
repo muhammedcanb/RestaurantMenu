@@ -95,6 +95,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>YemekListesiDBDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="YemekListesiDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YemekListesiDBDataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdvancedSearch.resx">
       <DependentUpon>AdvancedSearch.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +149,17 @@
     </None>
     <None Include="YemekListesiDBDataSet.xss">
       <DependentUpon>YemekListesiDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YemekListesiDBDataSet1.xsc">
+      <DependentUpon>YemekListesiDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="YemekListesiDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YemekListesiDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YemekListesiDBDataSet1.xss">
+      <DependentUpon>YemekListesiDBDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
